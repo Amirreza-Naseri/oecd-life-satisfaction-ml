@@ -1,0 +1,2 @@
+Model,RMSE,MAE,R2,Pearson_r,Pearson_r_squared,Within_±0.5,Countries,Candidate_indicators,Evaluation
+Neural Network (original notebook),0.6068,0.4449,0.2825,0.7067,0.4995,70.73,41,23,"10-fold shuffled CV, random_state=42"
