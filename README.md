@@ -28,7 +28,7 @@ The uploaded source notebook contains a completed run on **41 countries** with *
 | Pearson r² | **0.4995** |
 | Predictions within ±0.5 | **70.73%** |
 
-![Actual vs predicted](results/original_notebook_actual_vs_predicted.png)
+![Actual vs predicted](oecd-life-satisfaction-ml/results/original_notebook_actual_vs_predicted.png)
 
 > **Important:** these numbers are preserved from the original notebook for traceability. The refactored implementation moves mean imputation *inside* cross-validation, fixing a small leakage issue in the original notebook. Therefore, a fresh run of the refactored pipeline may produce slightly different metrics.
 
